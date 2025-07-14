@@ -1,16 +1,16 @@
 {
   "mappings": [
-    "/content/kroger/language-masters/en/:/",
-    "/content/kroger/configuration:/.helix/config.json",
-    "/content/kroger/metadata:/metadata.json",
-    "/content/kroger/redirects:/redirects.json",
-    "/content/kroger/language-masters/placeholders:/language-masters/placeholders.json",
-    "/content/kroger/language-masters/en/placeholders:/language-masters/en/placeholders.json",
-    "/content/kroger/language-masters/en/placeholders:/en/placeholders.json",
-    "/content/kroger/placeholders:/placeholders.json",
-    "/content/kroger.resource/language-masters/en/query-index.json:/en/query-index.json"
+    "/content/wknd-universal/language-masters/en/:/",
+    "/content/wknd-universal/configuration:/.helix/config.json",
+    "/content/wknd-universal/metadata:/metadata.json",
+    "/content/wknd-universal/redirects:/redirects.json",
+    "/content/wknd-universal/language-masters/placeholders:/language-masters/placeholders.json",
+    "/content/wknd-universal/language-masters/en/placeholders:/language-masters/en/placeholders.json",
+    "/content/wknd-universal/language-masters/en/placeholders:/en/placeholders.json",
+    "/content/wknd-universal/placeholders:/placeholders.json",
+    "/content/wknd-universal.resource/language-masters/en/query-index.json:/en/query-index.json"
   ],
   "includes": [
-    "/content/kroger/"
+    "/content/wknd-universal/"
   ]
 }
