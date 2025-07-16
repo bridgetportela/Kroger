@@ -385,7 +385,7 @@
         "component": "text",
         "valueType": "string",
         "value": "Accordion Title",
-        "name": "title",
+        "name": "Accordion Title",
         "label": "Title"
       },
       {
