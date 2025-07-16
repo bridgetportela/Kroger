@@ -382,11 +382,11 @@
     "id": "accordion-item",
     "fields": [
       {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Title",
-        "valueType": "string"
+        "component": "text",
+        "valueType": "string",
+        "value": "Accordion Title",
+        "name": "title",
+        "label": "Title"
       },
       {
         "component": "richtext",
