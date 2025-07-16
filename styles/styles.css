@@ -223,7 +223,7 @@
     --section-reduced-space: 320px;
 
     /* Screen variables */
-    --nav-height: 44px;
+    --nav-height: 64px;
     --nav-padding: 35px;
 
     /* main-heading styles */
@@ -325,8 +325,8 @@ body.green-theme {
 
 header {
   height: var(--nav-height);
-  min-height: 90px;
-  position: fixed;
+  min-height: 86px;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
@@ -555,12 +555,12 @@ main {
   -webkit-perspective: 1px;
   perspective: 1px;
 }
-main .hero-container {
+/* main .hero-container {
   -webkit-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
   padding: 0;
   margin: -180px 0 180px !important;
-}
+} */
 main .cards-container {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -592,13 +592,13 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
   padding: 0 24px;
 }
 
 main > .section:first-of-type {
-  margin-top: 0;
+  margin-top: 1rem;
 }
 
 @media (width >= 900px) {

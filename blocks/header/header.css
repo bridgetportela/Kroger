@@ -2,7 +2,7 @@
 
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--dark-color-opacity);
+  background-color: #0F52A2;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -49,6 +49,7 @@ header nav[aria-expanded='true'] {
     overflow: visible;
     padding: 22px 32px;
     height: auto;
+    max-width: 1760px;
   }
 }
 
@@ -176,7 +177,7 @@ header nav[aria-expanded='true'] .nav-sections {
   display: flex;
   visibility: visible;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 header nav .nav-sections ul {
@@ -437,7 +438,7 @@ html[dir="rtl"] .search-input-container input[type="search"]::-webkit-search-can
     padding: 8% 3%;
     text-align: center;
     z-index: 11111111;
-    background-color: var(--dark-color-opacity);
+    background-color: #0F52A2;
   }
 
   header nav .nav-sections ul {
