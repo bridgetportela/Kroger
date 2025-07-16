@@ -598,7 +598,7 @@ main > .section > div {
 }
 
 main > .section:first-of-type {
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 @media (width >= 900px) {
