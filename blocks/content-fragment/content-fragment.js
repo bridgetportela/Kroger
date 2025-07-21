@@ -98,9 +98,7 @@ export default async function decorate(block) {
 
         block.innerHTML = `
         <div class='banner-content block' data-aue-resource=${itemId} data-aue-label="Offer Content fragment" data-aue-type="reference" data-aue-filter="contentfragment">
-          <div class='banner-detail' style="background-image: linear-gradient(90deg,rgba(0,0,0,0.6), rgba(0,0,0,0.1) 80%) ,url(${
-            imgUrl
-          });" data-aue-prop="bannerimage" data-aue-label="Main Image" data-aue-type="media" >
+          <div class='banner-detail' style="background-image: url(${imgUrl});" data-aue-prop="bannerimage" data-aue-label="Main Image" data-aue-type="media" >
                 <p data-aue-prop="cftitle" data-aue-label="Title" data-aue-type="text" class='cftitle'>${
                   cfReq?.title
                 }</p>
